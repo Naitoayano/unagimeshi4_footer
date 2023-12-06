@@ -102,7 +102,7 @@ header('Content-Type: text/html; charset=' . CONTENT_CHARSET);
 
   <header>
     <h2 class="unagititle">柳川うなぎめし</h2>
-    <div class="unagilogo"><a href="/unagimeshi/"><img src="image/logo.PNG"></a></div>
+    <div class="unagilogo"><a href="/unagimeshi_menu4/"><img src="image/logo.PNG"></a></div>
 		<div id="searchBox"><?php echo convert_html(get_source('SearchBox')) ?></div>
     <div class="openbtn"><span></span><span></span><span></span></div>
      <nav id="g-nav">
@@ -173,7 +173,7 @@ header('Content-Type: text/html; charset=' . CONTENT_CHARSET);
     $_IMAGE['skin']['freeze']   = 'freeze.png';
     $_IMAGE['skin']['unfreeze'] = 'unfreeze.png';
     $_IMAGE['skin']['diff']     = 'diff.png';
-    $_IMAGE['skin']['upload']   = 'file.png';
+    $_IMAGE['skin']['upload']   = 'upload.png';
     $_IMAGE['skin']['copy']     = 'copy.png';
     $_IMAGE['skin']['rename']   = 'rename.png';
     $_IMAGE['skin']['top']      = 'top.png';
